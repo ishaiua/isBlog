@@ -1,0 +1,50 @@
+# Site settings
+title: 小海的博客
+email: ishaiua@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  小海的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ishaiua.com" # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Lian Haihua
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+
+github: ishaiua
+# codepen:  username
+# dribbble: username
+
+# avatar and Favicon
+avatar: http://og6e4y8ws.bkt.clouddn.com/avatar.jpg
+favicon: http://og6e4y8ws.bkt.clouddn.com/favicon.ico
+
+# disqus config
+disqus:
+  shortname: ishaiua
+# google analytics config
+
+#多说 config
+
+
+ga:
+  id: UA-86938712-1
+  url: ishaiua.com
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
