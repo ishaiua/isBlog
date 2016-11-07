@@ -48,7 +48,9 @@ $test=B::create();
 ```
 这样看起来是不是舒服多了？将重复的代码放在超类中去，并且假设 self 作为对该类的引用。实际上，self 指的不是上下文，它指的是解析上下文。因此，如果运行该段代码会得到：
     
-    Fatal error: Uncaught Error: Cannot instantiate abstract class A in E:\Code\isBlog\static.php:4 Stack trace: #0 E:\Code\isBlog\static.php(12): A::create() #1 {main} thrown in E:\Code\isBlog\static.php on line 4
+    Fatal error: Uncaught Error: Cannot instantiate abstract class A in 
+    E:\Code\isBlog\static.php:4 Stack trace: #0 E:\Code\isBlog\static.php(12):
+    A::create() #1 {main} thrown in E:\Code\isBlog\static.php on line 4
 
 
 因此，self 被解析为定义 create() 的超类 A ，而不是解析为调用 self 的 B 类。
