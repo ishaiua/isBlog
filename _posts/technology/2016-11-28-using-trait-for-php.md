@@ -74,7 +74,8 @@ $o = new MyHelloWorld();
 $o->sayHello();   //Hello World!
 ?>
 ```
-### 多个 Trait
+
+### 多个 Trait ###
 
 通过逗号分隔，在 use 声明列出多个 trait，可以都插入到一个类中。
 
