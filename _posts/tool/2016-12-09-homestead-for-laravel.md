@@ -92,7 +92,9 @@ Last login: Sat Dec 10 13:57:26 2016 from 10.0.2.2
 vagrant@haiua-app:~$ 
 
 ```
+
 ### 其他命令
+
 
 ```
 vagrant ssh   //登陆虚拟机
@@ -128,11 +130,13 @@ the timeout ("config.vm.boot_timeout") value.
 
 ```
 
-仅供参考方案：
+解决方案：
+
 
 ![timeout](http://og6e4y8ws.bkt.clouddn.com/homestead.timeout.png)
 
 ### 总结
+
 
 Homestead 这尼玛就是坑。 各种坑，坑死你不要命。
 
