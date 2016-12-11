@@ -27,7 +27,9 @@ composer create-project laravel/laravel=5.2.* laravel-app --prefer-dist
 ```
 composer require laravel/homestead --dev
 ```
+
 ### 生成配置文件
+
 
 ```
 vendor/bin/homestead make
