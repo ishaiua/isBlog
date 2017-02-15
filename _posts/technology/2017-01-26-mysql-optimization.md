@@ -411,10 +411,12 @@ commit；
 ```
  select s.id,s.name,group_concat(c.cname separator ' ') from stu s join stu_course sc on s.id=sc.sid join course c on sc.cid=c.cid group by id;
 
+
+
 +----+------+-------------------------------------+
 | id | name | group_concat(c.cname separator ' ') |
 +----+------+-------------------------------------+
-|  1 | 小明 | 英语 数学 语文                      |
+|  1 | 小明 | 英语 数学 语文                       |
 |  2 | 小红 | 数学 语文                           |
 |  3 | 小张 | 语文                                |
 +----+------+-------------------------------------+
